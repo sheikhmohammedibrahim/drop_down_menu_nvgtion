@@ -1,0 +1,58 @@
+ul {
+ margin: 10px 10px 10px 10px;
+ padding: 0;
+ list-style-type: none;
+}
+
+#main {
+ background: #1b1464;
+
+}
+
+#main ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ text-align: left;
+}
+
+#main li {
+ display: inline-block;
+}
+
+#main li a {
+ display: block;
+ padding: 12px 15px;
+ padding-left: 12px;
+ padding-right: 15px;
+ padding-top: 12px;
+ padding-bottom: 12px;
+ font-size: 14px;
+ color: whitesmoke;
+ text-decoration: none;
+
+}
+
+#main li a:hover {
+ background: #0652DD;
+}
+
+#main ul ul {
+ position: absolute;
+ left: 10px;
+ top: 49px;
+ background: #5758bb;
+ width: 200px;
+}
+
+#main ul ul li {
+ display: block;
+}
+
+#main ul ul li a:hover {
+ background: #192a56;
+}
+
+#main ul li:hover a {
+ background: #0652DD;
+}
