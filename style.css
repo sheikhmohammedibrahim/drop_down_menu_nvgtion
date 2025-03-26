@@ -1,58 +1,70 @@
 ul {
- margin: 10px 10px 10px 10px;
- padding: 0;
- list-style-type: none;
+  margin: 10px 10px 10px 10px;
+  padding: 0;
+  list-style-type: none;
 }
 
 #main {
- background: #1b1464;
-
+  background: #1b1464;
 }
 
 #main ul {
- margin: 0;
- padding: 0;
- list-style: none;
- text-align: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
 #main li {
- display: inline-block;
+  display: inline-block;
+  position: relative;
 }
 
 #main li a {
- display: block;
- padding: 12px 15px;
- padding-left: 12px;
- padding-right: 15px;
- padding-top: 12px;
- padding-bottom: 12px;
- font-size: 14px;
- color: whitesmoke;
- text-decoration: none;
-
+  display: block;
+  padding: 12px 15px;
+ 
+  font-size: 14px;
+  color: whitesmoke;
+  text-decoration: none;
 }
-
-#main li a:hover {
- background: #0652DD;
-}
-
+/* drop down menu style*/
 #main ul ul {
- position: absolute;
- left: 10px;
- top: 49px;
- background: #5758bb;
- width: 200px;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  background: #5758bb;
+  width: 200px;
+  display: none;
 }
 
 #main ul ul li {
- display: block;
+  display: block;
+}
+
+#main li a:hover {
+  background: #0652dd;
+}
+
+/* drop down hover */
+#main ul li:hover ul {
+  display: block;
+}
+/* drop down hover */
+
+#main ul li:hover a {
+  background: #0652dd;
+}
+
+#main ul li :hover li a {
+  background: #5758bb;
 }
 
 #main ul ul li a:hover {
- background: #192a56;
+  background: #192a56;
 }
 
-#main ul li:hover a {
- background: #0652DD;
-}
+/*  padding-left: 12px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;*/
