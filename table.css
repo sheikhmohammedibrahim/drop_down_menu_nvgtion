@@ -1,0 +1,58 @@
+table {
+  box-sizing: border-box;
+  width: 50%;
+
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 25px;
+}
+
+table,
+tr,
+th,
+td {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lime;
+  border-collapse: collapse;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-right: 25px;
+}
+
+th {
+  box-sizing: border-box;
+  background: tomato;
+  color: whitesmoke;
+  text-align: center;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+td {
+  box-sizing: border-box;
+  background: yellow;
+  color: blue;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: center;
+}
+
+table :hover {
+  box-sizing: border-box;
+  background: green;
+  color: whitesmoke;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+}

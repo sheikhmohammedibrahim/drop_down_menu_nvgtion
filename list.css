@@ -1,0 +1,66 @@
+ul {
+  box-sizing: border-box;
+  display: inline-block;
+  list-style-type: decimal;
+  list-style-position: inside;
+
+  background: rgb(30, 80, 243);
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 10px;
+
+  border-top: 5px;
+  border-bottom: 5px;
+  border-left: 5px;
+  border-right: 5px;
+
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #f60303;
+}
+
+li {
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: whitesmoke;
+  background: #19df07;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 2px;
+  border-right: 2px;
+
+  border-radius: 10px;
+  border-style: groove;
+  border-color: #d2e007;
+}
+
+ul:hover {
+  color: whitesmoke;
+  background: hsl(300, 98%, 48%);
+}
+
+li:hover {
+  color: whitesmoke;
+  background: rgb(6, 21, 240);
+}
